@@ -1,0 +1,102 @@
+.pricing-plans {
+  text-align: center;
+  padding: 50px 20px;
+
+  .header {
+    margin-bottom: 40px;
+
+    .subtitle {
+      color: #f6a623;
+      font-size: 14px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .title {
+      font-size: 28px;
+      color: #12263f;
+      margin-bottom: 20px;
+    }
+
+    .toggle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+
+      span {
+        font-size: 14px;
+        color: #6c757d;
+      }
+    }
+  }
+
+  .plan-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    position: relative;
+
+    &.recommended {
+      border: 2px solid #52c41a;
+    }
+
+    .badge {
+      position: absolute;
+      top: -10px;
+      left: 20px;
+      background: #f6a623;
+      color: #fff;
+      font-size: 12px;
+      font-weight: bold;
+      padding: 4px 8px;
+      border-radius: 4px;
+    }
+
+    .plan-title {
+      font-size: 20px;
+      font-weight: bold;
+      color: #12263f;
+      margin-bottom: 5px;
+    }
+
+    .plan-subtitle {
+      font-size: 14px;
+      color: #6c757d;
+      margin-bottom: 20px;
+    }
+
+    .plan-price {
+      font-size: 16px;
+      color: #12263f;
+      margin-bottom: 20px;
+    }
+
+    .plan-features {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 20px;
+
+      li {
+        font-size: 14px;
+        margin-bottom: 10px;
+
+        &.available {
+          color: #52c41a;
+        }
+
+        &.unavailable {
+          color: #d3d9e6;
+          text-decoration: line-through;
+        }
+      }
+    }
+
+    .action-button {
+      width: 100%;
+      height: 40px;
+    }
+  }
+}
